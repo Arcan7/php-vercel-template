@@ -1,4 +1,13 @@
-<?php
-
-header('content-type: application/json');
-echo json_encode(['time' => time(), 'date' => date('d.m.Y'), 'tech' => 'Vercel']);
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Php in vercel</title>
+</head>
+<body>
+    <?php
+        echo "Hello from PHP";
+    ?>
+</body>
+</html>
